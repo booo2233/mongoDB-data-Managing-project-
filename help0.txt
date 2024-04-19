@@ -5,3 +5,5 @@ add --> To add a new user to the database
 q --> quit
              
 math --> Can do Equations like +,-,*,/
+
+sedb --> Search the database
