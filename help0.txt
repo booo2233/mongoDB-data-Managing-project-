@@ -1,0 +1,7 @@
+add --> To add a new user to the database 
+        It would also query for if the user already exist in the database and increase the 
+        count by 1 To know how many times a user came
+             
+q --> quit
+             
+math --> Can do Equations like +,-,*,/
