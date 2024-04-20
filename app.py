@@ -4,16 +4,17 @@ from pymongo import MongoClient
 import pprint
 
 
-
+#Connecting to Mongodb
 counts = "mongodb+srv://youarealoafofbread1:SNt6eJKr2nbLZAT@lol.rntnmjb.mongodb.net/?retryWrites=true&w=majority&tls=true"
 cilent = MongoClient(counts)
-
+#Choosing the database to write the Database
 
 produck = cilent.project
 ads = produck.ads
 
-
+#Add some new use of the database. cheque if the user exists on the database If the user exists to the database, bring back the details of the user
 def inst():
+  #Input from the user I violate the data
   while True:  
      name = input("Enter the name of Customer: ").lower()
      number = input("Enter the number of Customer: ")
@@ -103,7 +104,7 @@ def sdb():
          continue  
       
           
-         
+  # Redirecting the use of Parts of the programme       
 
 while True:
     mode = input("To add a customer Type in add or q to Quit :").lower()
