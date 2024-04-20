@@ -5,7 +5,7 @@ import pprint
 
 
 #Connecting to Mongodb
-counts = "mongodb+srv://youarealoafofbread1:SNt6eJKr2nbLZAT@lol.rntnmjb.mongodb.net/?retryWrites=true&w=majority&tls=true"
+counts = "you_DBapiurl"
 cilent = MongoClient(counts)
 #Choosing the database to write the Database
 
